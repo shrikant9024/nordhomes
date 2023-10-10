@@ -11,10 +11,7 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 # Set the DJANGO_SETTINGS_MODULE environment variable.
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'your_project_name.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'nordhomes.settings')
 
 # Initialize the Django application.
 application = get_wsgi_application()
-
-
-app = application
