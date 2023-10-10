@@ -1,0 +1,1 @@
+web: gunicorn nordhomes.wsgi --log-file -

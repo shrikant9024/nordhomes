@@ -1,8 +1,8 @@
 {
     "builds": [
         {
-            "src": "nordhomes/wsgi.py",
-            "user": "@vercel/python",
+            "src": "your_project_name/wsgi.py",
+            "use": "@vercel/python",
             "config": {
                 "maxLambdaSize": "15mb",
                 "runtime": "python3.9"
@@ -12,7 +12,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "nordhomes/wsgi.py"
+            "dest": "your_project_name/wsgi.py"
         }
     ]
 }
